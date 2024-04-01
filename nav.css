@@ -13,11 +13,12 @@
     /* margin: 20px; */
     border: 1px solid black;
     margin-top: 0px;
-    align-items: ;
-    justify-content: ;
+    
     
 }
-
+body{
+    background-color: rgb(20, 20, 20);
+}
 a:link{
     color: white
 }
