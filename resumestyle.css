@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  background-color: #101012;
+  width: 100vw;
+  /* height: 12vh; */
+}
+
+.container {
+  max-width: 142rem;
+  margin: 0 auto;
+  height: 7.5rem;
+  padding: 0 8rem;
+}
+
+.header-div .ioi-logo img {
+  width: 16rem;
+  height: 4rem;
+  /* padding: 0.3rem 0 ; */
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  /* display: inline-block; */
+}
+
+.header-div .nav-bar ul {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 2.2rem;
+  font-size: 1.4rem;
+  display: flex;
+  gap: 1.8rem;
+  list-style: none;
+  /* transform:translate(-50%,-50%); */
+}
+.header-div .nav-bar ul li a {
+  padding: 0.9rem 4rem;
+  margin-left: 3rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: white;
+  background-color: #247e84;
+  /* transform:translate(-50%,-50%); */
+}
+
+.hero-content {
+  max-width: 30vw;
+  padding-top: 40px;
+}
+.hero-section {
+  background-image: url(https://pwioi.com/images/homePage/PWIOIHeroBg.webp);
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 30rem;
+  color: white;
+  padding: 8rem 10rem 10rem 10rem;
+}
+
+.hero-content p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 0 15px 0;
+  color: #8f949a;
+}
+.hero-content h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0 0 10px 0;
+  color: #8f949a;
+}
+.hero-content h3 {
+  margin-top: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0 0 10px 0;
+  color: #24adb4;
+}
+
+.hero-form {
+  height: 89vh;
+  width: 26vw;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(117, 117, 117);
+  position: relative;
+ top: -7%;
+}
+
+.hero-form div,
+h3,
+p {
+  /* padding: 8px; */
+  padding: 8px 58px 8px 28px;
+  /* margin:auto; */
+}
+
+.hero-form h3 {
+  color: #000000;
+  font-weight: 800;
+}
+
+input,
+option,
+select {
+  padding: 0 0 0.5rem 0;
+  width: calc(25vw - 40px);
+  border: none;
+  border-bottom: 1px solid rgb(117, 117, 117);
+  font-size: 1.6rem;
+  color: rgb(117, 117, 117);
+}
+
+.double {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.double :first-child {
+  width: calc(12.5vw - 22px);
+}
+.double :nth-child(2) {
+  width: calc(12.5vw - 22px);
+  /* width: 10vw; */
+}
+
+.heading {
+  margin-top: 5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+svg {
+  position: absolute;
+  z-index: 1;
+}
+
+.terms {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(27, 33, 36);
+  padding: 8px 58px 8px 28px;
+  margin: auto;
+}
+
+.highlight {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #579ca0;
+}
+
+.submit {
+    height: 7rem;
+    width: calc(25vw - 40px);
+    background-color: #7cb2b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 8px 8px 8px 8px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+    
+
+}
+
+.telephone{
+    width: calc(25vw - 40px);
+    display: flex;
+    padding: 8px 58px 8px 28px;
+    /* width: 280px; */
+}
+
+
+
+.telephone input{
+    /* border: none; */
+}
+
+.telephone span{
+    border-bottom:1px solid  #7cb2b5;
+    
+}
+
+.tel1,.tel2{
+    font-family: "Nunito Sans", sans-serif;
+    padding-right: 5px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 26px;
+}
+
+.tel4{
+    font-family: "Nunito Sans", sans-serif;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: 200;
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.hero-form h3{
+    padding-top: 20px;
+}
