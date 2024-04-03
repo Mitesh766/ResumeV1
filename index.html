@@ -1,115 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <header>
-        
-        <div class="header">
-            <div class="name">
-                
-                ★彡[ᴍɪᴛᴇꜱʜ ᴀɢʀᴀᴡᴀʟ]彡★
-            </div>
-            <div class="nav-bar">
-                <ul>
-                    <li><a href="#educate">Education</a></li>
-                    <li><a href="#skilling">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#connect">Connect</a></li>
-                </ul>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ? header  start -->
+
+    <header class="section-navbar">
+      <div class="container header-div">
+        <div class="name-plate">★彡[ᴍɪᴛᴇꜱʜ ᴀɢʀᴀᴡᴀʟ]彡★</div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#education-section">Education</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#connect-section">Connect</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div class="bgcolor">
-       
-        <div class="about">
-            <div class="img-my">
-
-                <img src="/Mitesh_cleanup-removebg-preview.png" >
-            </div>
-
-            <div class="about-me">
-                <h2>HI there , I am Mitesh.</h2>
-                <br>
-                <h3>Aspiring Software Engineer</h3>
-            </div>
+    <!-- !  hero section start -->
+    <main>
+      <div class="hero-section container grid grid-two--cols">
+        <div class="hero-image">
+          <img src="/hero.png" alt="hero-img creator's photo" />
         </div>
-    </div>
-
-    <div class="skills-section" id="educate">
-          <div class="content">
-            <img  src="/Simple Maslow Hierarchy of Needs Model.png" alt="">
-          </div>
-    </div>
-
-  <section class="skills" id="skilling">
-    <h2>Skills</h2>
-
-      <div class="skills-div">
-          <div class="img-div">
-            <img src="/main-hero.png" alt="">
+        <div class="hero-content">
+          <h1 class="hero-heading">Hi there ! I am Mitesh</h1>
+          <p class="hero-subheading">Aspiring Software Engineer</p>
+          <p class="hero-para">
+            Highly motivated, hardworking, and committed to continuous learning
+            and professional growth with a strong passion for technology and
+            software development.
+          </p>
         </div>
-        <div class="button-div">
-            <button>HTML</button>
-            <button>CSS</button>
-            <button>JAVA SCRIPT</button>
-            <button>REACT</button>
-            <button>MySQL</button>
-            <button>MongoDB</button>
-            <button>NodeJS</button>
-            <button>Express</button>
+      </div>
+    </main>
 
-            <button>PYTHON</button>
-            <button>JAVA</button>
-            <button>C</button>
+    <!-- ?Education section start -->
+
+    <section class="education-section" id="education-section">
+      <div class="container education-div">
+        <img src="/education.png" alt="" />
+      </div>
+    </section>
+
+    <!--! skills section start -->
+
+    <section class="skill-section" id="skills-section">
+      <div class="container">
+        <h2 class="skill-heading container">Skills</h2>
+      </div>
+      <div class="container grid grid-two--cols">
+        <div class="skill-image">
+          <img src="/skills.png" alt="coder-img" />
         </div>
-    </div>
-</section>
+        <div class="skill-buttons grid grid-three--cols">
+          <button class="skill-button">Python</button>
+          <button class="skill-button">JavaScript</button>
+          <button class="skill-button">Java</button>
+          <button class="skill-button">C</button>
+          <button class="skill-button">HTML</button>
+          <button class="skill-button">CSS</button>
+          <button class="skill-button">REACT</button>
+          <button class="skill-button">NodeJS</button>
+          <button class="skill-button">ExpressJS</button>
+          <button class="skill-button">MongoDB</button>
+          <button class="skill-button">MySQL</button>
+        </div>
+      </div>
+    </section>
 
+    <!--? portfolio section start -->
 
+    <section class="portfolio-section" id="portfolio-section" >
+      <div class="container">
+        <h2 class="skill-heading container">Projects</h2>
+      </div>
 
+      <div class="container grid grid-two--cols">
+        <div class="portfolio-buttons grid grid-three--cols">
+          <a href="https://miteshagrawal.vercel.app"
+            ><button class="portfolio-button">Portfolio Website</button>
+          </a>
+          <a
+            href="https://github.com/Mitesh766/Python/blob/main/passwordAuthenticator.py"
+          >
+            <button class="portfolio-button">Password</button>
+          </a>
+          <a
+            href="https://github.com/Mitesh766/Python/blob/main/libraryManagementSystem.py"
+          >
+            <button class="portfolio-button">Library Management System</button>
+          </a>
 
-<section class=" portfolio-section" id="portfolio">
-    <h2>Projects</h2>
+          <a
+            href="https://github.com/Mitesh766/Data-Science/tree/main/Student%20Registration%20form"
+            ><button class="portfolio-button">Registration Form</button>
+          </a>
+          <a href="https://github.com/Mitesh766/Projects">
+            <button class="portfolio-button">Food Delivery App</button>
+          </a>
 
-      <div class="skills-div">
-          <div class="button-div">
-              
-              <button><a href="">Library Management System</a></button>
-              <button><a href="">Password Verifier</a></button>
-              <button><a href="">Registration Form</a></button>
-              <button><a href="">Resume</a></button>
-              <button><a href="">Food Delivery App</a></button>
-              <button><a href="">IOI Clone</a></button>
-              <button><a href="">Zerodha landing page clone</a></button>
-              
-            </div>
-            <div class="img-div">
-                <img src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png" alt="">
-            </div>
-          </div>
-    </div>
+          <a
+            href="https://github.com/Mitesh766/Python/blob/main/Assignment1(EDA).ipynb"
+            ><button class="portfolio-button">EDA on Travel Dataset</button></a
+          >
 
+          <a href="https://github.com/Mitesh766/Web-Development/tree/main/Clone"
+            ><button class="portfolio-button">IOI Website Clone</button></a
+          >
+        </div>
+        <div class="skill-image">
+          <img src="/project.png" alt="idea-img" />
+        </div>
+      </div>
+    </section>
 
-</section>
+    <!--! footer start -->
 
-
-<div class="connect" id="connect">
-    <img height="80" src="/link-removebg-preview.png    "  alt="">
-    <img height="80" src="/git.jpg"  alt="">
-    <img height="80" src="/twi-removebg-preview.png"  alt="">
-</div>
-
-
-
-
-
-
-</body>
+    <footer>
+      <div class="container footer-div " id="connect-section">
+        <a href="https://www.linkedin.com/in/mitesh-agrawal76/"
+          ><img src="/linkedin.png" alt="linkedin-logo"
+        /></a>
+        <a href="https://github.com/Mitesh766"
+          ><img src="/git.jpg" alt="git-logo"
+        /></a>
+        <a href="mailto:miteshagrawal972@gmail.com"
+          ><img class="mail" src="/mail3.png" alt="mail-logo"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
