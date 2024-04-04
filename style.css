@@ -230,7 +230,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 footer h1{
@@ -240,21 +239,22 @@ footer h1{
 }
 
 .footer-div {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
   gap: 50px;
 }
 
 .footer-div img {
   height: 140px;
+  width: auto;
 }
 
-.mail {
+.twitter {
   background-color: white;
   border-radius: 50%;
   width: 75%;
   display: block;
-  height: 30%;
+  height: 10%;
   border:2px solid white;
 
   
@@ -264,10 +264,34 @@ footer h1{
   border-radius: 50%;
   border: 0.2rem solid white;
   background-color: black;
-  width: 90%;
+  height: 30%;
+  width: 60%;
+  padding: 4px;
+  display: block;
 }
 
 
 .handshake {
   width:24rem;
+}
+
+
+.footer-contact{
+  color: white;
+  font-size: 2rem;
+  border:2px solid white;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.footer-main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
