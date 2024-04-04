@@ -39,7 +39,7 @@ a {
 
 .container {
   max-width: 142rem;
-  padding: 2.8rem 2.4rem;
+  padding: 4rem 2.4rem 1rem  2.4rem;
   margin: 0 auto;
 }
 
@@ -70,6 +70,7 @@ a {
 .navbar ul {
   display: flex;
   gap: 3.2rem;
+  padding-right: 20px;
 }
 
 .navbar ul li a {
@@ -80,6 +81,7 @@ a {
 .name-plate {
   color: #f5b456;
   font-size: 3rem;
+  padding-left: 20px;
 }
 
 /* *hero section  */
@@ -93,8 +95,12 @@ main {
   background-color: #1a1a1a;
 }
 
+main .grid-two--cols{
+  gap:5rem;
+}
+
 .hero-section .hero-image img {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 50%;
 }
@@ -129,8 +135,12 @@ main {
 }
 
 .education-div img {
-  width: 100%;
-  height: 100vh;
+  padding-top: 50px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  /* height: 100vh; */
+  
 }
 
 /* ?skill section  */
@@ -146,8 +156,12 @@ main {
   );
 
   & img {
-    width: 100%;
+    width: 75%;
     height: auto;
+  }
+
+  .grid-two--cols{
+    gap:30px;
   }
 }
 
@@ -168,7 +182,7 @@ main {
 .portfolio-button {
   border-radius: 10px;
   font-size: 20px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .skill-button:hover {
@@ -180,20 +194,27 @@ main {
 
 /** portfolio section */
 
+
+
+
 .portfolio-section {
   background-color: #f0f8ff;
 
   & img {
-    width: 100%;
+    width: 90%;
     height: auto;
-    padding-bottom: 300px;
+    /* padding-bottom: 300px; */
     /* padding-top: -200px; */
   }
 }
 
+.portfolio-section .grid-three--cols{
+  grid-template-rows: repeat(3,1fr);
+}
+
 .portfolio-button {
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 150px;
 }
 
 .portfolio-button:hover {
@@ -205,6 +226,18 @@ main {
 
 footer {
   background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer h1{
+  padding-top: 10px;
+  color: white;
+  font-size: 70px;
+ 
 }
 
 .footer-div {
@@ -214,10 +247,31 @@ footer {
 }
 
 .footer-div img {
-  height: 160px;
+  height: 140px;
 }
 
 .mail {
   background-color: white;
   border-radius: 50%;
+  width: 55%;
+  display: block;
+  height: 30%;
+}
+
+.linkedin {
+  border-radius: 60%;
+  border: 2px solid white;
+  background-color: black;
+  width: 90%;
+}
+
+
+.handshake {
+  width: 20%;
+}
+
+.git{
+  display: inline-block;
+  /* height: 480px; */
+  /* width: 200px; */
 }
