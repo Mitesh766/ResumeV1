@@ -344,4 +344,8 @@ footer h1{
     flex-direction: column;
     gap:3rem
   }
+
+  .grid-three--cols{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
