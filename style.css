@@ -95,7 +95,7 @@ main {
   background-color: #1a1a1a;
 
   & .container {
-    padding: 15rem;
+    padding: 12rem;
   }
 }
 
@@ -115,6 +115,7 @@ main .grid-two--cols{
   font-family: "Jost";
   line-height: 1.5;
   color: #003b99;
+  padding-bottom: 1rem;
 }
 
 .hero-subheading {
@@ -124,6 +125,7 @@ main .grid-two--cols{
   word-spacing: 0.2rem;
   color: #f5b456;
   font-weight: 700;
+  padding-bottom: 2rem;
 }
 
 .hero-para {
@@ -321,7 +323,7 @@ footer h1{
 
   main {
      & .container {
-      padding: 5rem;
+      padding: 5rem 0;
      }
   }
 
