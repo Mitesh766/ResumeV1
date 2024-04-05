@@ -27,7 +27,7 @@ p,
 li,
 a {
   font-family: "Urbanist", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   letter-spacing: 0.1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -93,6 +93,10 @@ a {
 
 main {
   background-color: #1a1a1a;
+
+  & .container {
+    padding: 15rem;
+  }
 }
 
 main .grid-two--cols{
@@ -312,8 +316,15 @@ footer h1{
 
 @media (width <= 1024px) {
   html {
-    font-size: 40%;
+    font-size: 56.25%;
   }
+
+  main {
+     & .container {
+      padding: 5rem;
+     }
+  }
+
    .grid-two--cols {
     grid-template-columns: 1fr;
     align-items: center;
