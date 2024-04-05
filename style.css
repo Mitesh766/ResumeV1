@@ -478,7 +478,7 @@ text-align: center;
 @media (width <= 484px) {
 
   .navbar ul li a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .footer-div {
@@ -488,7 +488,7 @@ text-align: center;
 
   }
 }
-@media (width <= 400px) {
+@media (width <= 448px) {
 
   .navbar ul li a {
     font-size: 0.35rem;
