@@ -367,6 +367,7 @@ footer h1{
 
   footer img{
     width: 10%;
+    
   }
 
   .footer-main h3 {
@@ -382,4 +383,7 @@ footer h1{
     flex-direction: column;
   }
   
+  .grid-three--cols {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
