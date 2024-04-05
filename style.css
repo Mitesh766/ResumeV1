@@ -316,6 +316,30 @@ footer h1{
 }
 
 
+/***** scrollbar Section *****/
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+
 @media (width <= 1024px) {
   html {
     font-size: 56.25%;
@@ -385,5 +409,25 @@ footer h1{
   
   .grid-three--cols {
     grid-template-columns: repeat(2,1fr);
+  }
+  .navbar ul li a {
+    font-size: 1.6rem ;
+  }
+}
+
+@media (width <= 400px) {
+
+  .navbar ul li a {
+    font-size: 1.2rem ;
+  }
+
+  .grid-two--cols,.grid-three--cols{
+    grid-template-columns: 1fr;
+  }
+
+  .footer-div {
+    
+    display: flex;
+    flex-direction: column;
   }
 }
