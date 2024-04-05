@@ -374,8 +374,10 @@ footer h1{
   } */
 
   .education-div img {
-   
-    width: 90%;
+   margin-top: -7rem;
+    width: 100%;
+    /* display: block; */
+    height: 600px;
   
    
     
