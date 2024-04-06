@@ -539,7 +539,9 @@ text-align: center;
 }
 @media (width <= 450px) {
 
-
+  .education-div img {
+    padding-top: 7rem;
+  }
 
   .navbar ul li a {
     font-size: 0.8rem;
