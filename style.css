@@ -281,7 +281,7 @@ footer {
 }
 
 footer h1{
-  padding-top: 2rem;
+  padding-top: 8rem;
   color: white;
   font-size: 7rem;
 }
@@ -320,7 +320,7 @@ footer h1{
 
 
 .handshake {
-  width:24rem;
+  width:16rem;
 }
 
 
@@ -409,16 +409,22 @@ footer h1{
   align-items: start;
 }
 
-  footer h1 {
-    padding: 4rem;
-   
-  }
+ 
 
 
   .education-div img {
     width: 100%;
     height: 100vh;
     width: 90vw;
+  }
+
+  footer h1 {
+    padding: 0.11rem;
+    font-size: 8rem;
+  }
+
+  .handshake {
+    width: 22rem;
   }
  
   
@@ -428,7 +434,7 @@ footer h1{
 @media (width <= 992px) {
 
   .education-div img {
-    padding-top: 2.2rem;
+    padding-top: 0.2rem;
   }
   
   .skill-section .container {
@@ -473,6 +479,10 @@ text-align: center;
     flex-direction: column;
   }
  
+  .education-div img {
+    padding-top: 1.2rem;
+  }
+
 }
 
 @media (width <= 768px) {
@@ -507,7 +517,9 @@ text-align: center;
   }
 
   .footer-section h1 {
+    padding-bottom: 3rem;
     text-align: center;
+    font-size: 6rem;
   }
   
 }
@@ -542,12 +554,18 @@ text-align: center;
 
  
   .footer-section h1 {
-    font-size: 4rem;
+    font-size: 4.7rem;
+    padding: 3rem;
   }
 
 .name-plate {
   font-size: 2rem;
 }
+.handshake {
+  width: 15rem;
+}
+
+
 
 }
 
@@ -564,20 +582,12 @@ text-align: center;
     height: 140px;
     width: 120px;
   }
+  .skill-button, .portfolio-button {
+    font-size: 14px;
+  }
 }
 
-.hero-heading {
-  font-size: 4vw;
-}
 
-.hero-subheading {
-  font-size: 3vw;
-}
-
-.hero-para {
-  margin-top: -1vh;
-  font-size: 2vw;
-}
 
 @media (width <= 340px) {
   .navbar ul li a {
@@ -596,3 +606,26 @@ text-align: center;
    gap :2.2rem;
   }
 }
+
+
+.hero-heading {
+  font-size: 4vw;
+}
+
+.hero-subheading {
+  font-size: 3vw;
+}
+
+.hero-para {
+  margin-top: -1vh;
+  font-size: 2vw;
+}
+
+/* .footer-section h1 {
+  padding: 4rem 2.4rem 6rem 2.4rem;
+  color: #022D8C;
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+} */
