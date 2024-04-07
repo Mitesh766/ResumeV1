@@ -31,6 +31,7 @@ a {
   letter-spacing: 0.1rem;
   font-weight: 900;
   line-height: 1.5;
+  list-style: none;
 }
 
 a {
@@ -50,13 +51,20 @@ a {
 }
 
 /** header section */
+.navbar ul li a {
+  color: black;
+}
 
 .section-navbar {
-  background-color: #000;
+  background-color: #000000db;
+  border-bottom: 1px solid white;
+  filter: blur(0.5);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     position:sticky;
     top:0;
+    
+
     
   & li a {
     color: RED;
@@ -66,6 +74,7 @@ a {
     display: inline-block;
     position: relative;
     transition: all 0.3s linear;
+    
 
     &::after {
       content: "";
@@ -86,6 +95,8 @@ a {
   width: 100%;
 }
 }
+
+
 
 .header-div {
   padding: 1.8rem 0;
@@ -631,3 +642,7 @@ text-align: center;
   text-transform: capitalize;
   text-align: center;
 } */
+
+.education-div img {
+  /* padding-top: 8vh; */
+}
