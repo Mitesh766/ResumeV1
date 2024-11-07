@@ -9,20 +9,37 @@
       .Heading {
         background-color: silver;
       }
+
+      .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .head{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      li{
+        padding: 2px;
+      }
     </style>
   </head>
   <body>
-    <div style="width: 500px; background-color: bisque; margin-left: 380px;" >
-      <h1>Portfolio website coming soon</h1>
-      <h1>Mitesh Agrawal</h1>
+    <div style="width: 500px; background-color: bisque; margin-left: 380px">
 
+      <div class="head">
+        
+        <h1>Mitesh Agrawal</h1>
+      </div>
       <hr />
 
       <div class="Heading"><h3>About me</h3></div>
 
       <ul>
         <li>
-          First-year computer science student with a strong passion for
+          Second-year computer science student with a strong passion for
           technology and software development.
         </li>
 
@@ -42,13 +59,74 @@
       </ul>
 
       <div class="Heading"><h3>Skills</h3></div>
-      <ul>
-        <li>Communication Skills</li>
-        <li>Empathy</li>
-        <li>Problem Solving</li>
-        <li>Microsoft Excel </li>
-        <li>Frontend Development</li>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>BootStrap</li>
+        <li>MySQL</li>
+        <li>C</li>
+        <li>Java</li>
+        <li>Data Structure and Algorithms</li>
+        <li>Python</li>
+        <li>Microsoft Excel</li>
       </ul>
+
+      <div class="Heading"><h3>Projects</h3></div>
+      <section class="portfolio-section" id="portfolio-section">
+        <div class="container">
+        </div>
+        <div class="container grid grid-two--cols">
+          <div class="portfolio-buttons grid grid-three--cols">
+            <ul>
+
+            
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1--Eq0_VHYkAWKRI533DVyfEr8bIVFNmb/view?usp=sharing"
+            >
+              <li class="portfolio-li">
+                Library Management System
+              </li>
+            </a>
+
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1MJs9-7nHNfyCr5Gffg7idsXQK8kK8V92/view?usp=sharing"
+              ><li class="portfolio-li">
+                EDA on Travel Dataset
+              </li></a
+            >
+
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1SBtkROwZAIf-n_d02vt0Dmf2jjdzkI_r/view?usp=sharing"
+              ><li class="portfolio-li">Registration Form</li>
+            </a>
+            <a target="_blank" href="https://miteshagrawal.vercel.app"
+              ><li class="portfolio-li">Portfolio Website</li>
+            </a>
+            <a target="_blank" href="https://myntra-sage-three.vercel.app/"
+              ><li class="portfolio-li">Myntra clone</li>
+            </a>
+            <a target="_blank" href="https://zerodha-ten.vercel.app/"
+              ><li class="portfolio-li">Zerodha Landing Page</li>
+            </a>
+            <a
+              target="_blank"
+              href="https://miteshagrawal.vercel.app/header.html/"
+              ><li class="portfolio-li">PWIOI Landing Page</li>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/Mitesh766/Python/blob/main/passwordAuthenticator.py"
+            >
+              <li class="portfolio-li">Password Authenticator</li>
+            </a>
+          </ul>
+          </div>
+        </div>
+      </section>
 
       <div class="Heading"><h3>Education</h3></div>
 
